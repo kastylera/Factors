@@ -1,6 +1,6 @@
 class Factors_Test {
+  
   fun factor_45_3and3and5_returned(): Boolean{
-
     //arrange
     val x = 45;
     val expected = arrayOf(3,3,5)
@@ -10,8 +10,8 @@ class Factors_Test {
     //assert
     return expected contentEquals actual
   }
+  
   fun factor_3_3_returned(): Boolean{
-
     //arrange
     val x = 3;
     val expected = arrayOf(3)
@@ -21,8 +21,8 @@ class Factors_Test {
     //assert
     return expected contentEquals actual
   }
+  
   fun factor_210_2and3and5and7_returned(): Boolean{
-
     //arrange
     val x = 210;
     val expected = arrayOf(2,3,5,7)
@@ -45,7 +45,6 @@ class Factors_Test {
   }
 
   fun factor_1_1_returned(): Boolean{
-
     //arrange
     val x = 1;
     val expected = arrayOf(1)
