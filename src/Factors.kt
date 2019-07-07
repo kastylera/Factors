@@ -1,4 +1,5 @@
 class Factors {
+
   fun factor(x: Int): Array<Int> {
     var processingValue = x
     var factors = emptyArray<Int>()
